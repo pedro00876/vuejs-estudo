@@ -1,4 +1,6 @@
 <template>
+  <!-- O v-bind é para falar que algo é dinamico -->
+  <img src="" alt="" />
   <div v-for="obj in todos" v-bind:key="obj.id">
     {{ obj.title }}
   </div>
@@ -45,4 +47,6 @@ export default {
     }
   },
 }
+
+alert
 </script>
